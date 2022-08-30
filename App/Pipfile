@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django-heroku = "~=0.3.1"
+django = "~=4.0.5"
+djangorestframework = "~=3.13.1"
+environs = {version = "==8.0.0", extras = ["django"]}
+psycopg2-binary = "*"
+whitenoise = "==5.1.0"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
